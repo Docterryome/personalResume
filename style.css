@@ -48,3 +48,7 @@ body {
     margin: 1em;
     padding: .5em;
 }
+
+.project {
+    background-color: white;
+}
