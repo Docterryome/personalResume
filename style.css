@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+}
+
+.header img {
+    border-radius: 100em;
+    width: 4em;
+    height: 4em;
+}
+.header h1 {
+    margin-left: .5em;
+}
+
+.section-stuff span {
+    font-style: italic;
+}
+
+.section-stuff {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.section-stuff {
+    text-align: center;
+}
+
+.project-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project-section div {
+    max-width: 300px;
+    border: 1px solid black;
+    margin: 1em;
+    padding: .5em;
+}
