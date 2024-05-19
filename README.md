@@ -1,2 +1,3 @@
-# personalResume
-A simple resume site that I can just launch whenever I want
+# Personal Resume
+
+A simple working resume to launch whenever I want.
