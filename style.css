@@ -40,7 +40,7 @@ body {
 }
 
 .project-section div {
-    max-width: 300px;
+    max-width: 500px;
     border: 1px solid black;
     margin: 1em;
     padding: .5em;
