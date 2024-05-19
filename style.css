@@ -7,6 +7,7 @@
 
 body {
     margin: 0;
+    background-color: #efefef;
 }
 
 .header img {
@@ -37,9 +38,11 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .project-section div {
+    min-width: 350px;
     max-width: 500px;
     border: 1px solid black;
     margin: 1em;
