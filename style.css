@@ -8,16 +8,30 @@
 body {
     margin: 0;
     background-color: rgb(4, 13, 38);
+    z-index: 1;
 }
 
-
-.resume-content{
+.svg-container {
+    position: absolute;
+    width: 100%; 
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+.resume-container{
     width: 75%;
     max-width: 950px;
     background-color: #efefef;
     border-radius: .5em;
     margin: auto;
+    z-index: 2;
 }
+
+.resume-content {
+    z-index: 2;
+}
+
 .header img {
     border-radius: 100em;
     width: 4em;
