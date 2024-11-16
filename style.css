@@ -7,9 +7,17 @@
 
 body {
     margin: 0;
-    background-color: #efefef;
+    background-color: rgb(4, 13, 38);
 }
 
+
+.resume-content{
+    width: 75%;
+    max-width: 950px;
+    background-color: #efefef;
+    border-radius: .5em;
+    margin: auto;
+}
 .header img {
     border-radius: 100em;
     width: 4em;
