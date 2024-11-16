@@ -46,15 +46,13 @@ body {
 }
 
 .section-stuff {
+    text-align: center;
     display: flex;
     flex-direction: column;
     width: 100%;
     justify-content: center;
 }
 
-.section-stuff {
-    text-align: center;
-}
 
 .project-section{
     display: flex;
