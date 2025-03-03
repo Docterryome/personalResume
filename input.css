@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+    --font-weight-extrabold: 1000;
+    --font-weight-goodbold: 900;
+}
+
+#resume-head p { 
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
