@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
-    <title>Document</title>
+    <title>Docterryome's Resume</title>
   </head>
   <body class="max-w-4xl m-auto bg-gray-300">
     <section id="resume" class="bg-white w-full p-10 h-screen">
       <section id="resume-head">
-        <h1 class="text-4xl text-bold font-mono font-extrabold">Docterryome Wilkins</h1>
-        <p class="mt-3 text-cyan-600 text-bold font-goodbold">
+        <h1 class="text-4xl text-bold font-mono font-extrabold mb-4">Docterryome Wilkins</h1>
+        <p class="mt-3 text-cyan-600 text-bold font-goodbold mb-4">
           Full-Stack and DevOps Engineer with hands-on experience in automation, and CI/CD pipelines.
           Proficient in GitHub Actions for workflow automation, bash scripting for system automation, and web development using Java, Python and JavaScript. 
         </p>
@@ -42,14 +42,32 @@
       </section>
       <section id="resume-content" class="w-full mt-10 bg-white">
         <div class="flex items-stretch justify-between flex-wrap">
-          <div>
-            <h2 class="text-2xl text-bold font-mono font-extrabold">Work Experience</h2>
-            <p class="text-gray-800 text-bold font-goodbold">FedEx Enterprise, 2014 - Present</p>
+          <div class="mb-10">
+            <h2 class="text-2xl text-bold font-mono font-extrabold mb-5 underline">Work Experience</h2>
+            <div class="flex flex-col">
+              <p class="text-gray-800 text-bold font-goodbold">FedEx Corporation, 2014 - Present</p>
+              <p class="text-gray-800 italic">Collierville, TN</p>
+              <p class="text-gray-800 italic mb-2">Technical Analyst Advisor</p>
+              <ul class="text-gray-800 list-disc ml-8 mb-2">
+                <li class="mb-2">Technical Lead and Subject Matter Expert for setting up and maintaining Nexus Repository Manager for the Enterprise, allowing FedEx developers to push their artifacts to an artifact store.</li>
+                <li class="mb-2">Created custom onboarding tools using spring boot (Java) and angular that help users and applications onboard to our suite of tools which reduces the amount of tickets we get and reduces the time it takes for a developer to get started adopting the Enterprise CI/CD standers.</li>
+                <li class="mb-2">Created a Jenkins ci reference pipeline, which is an inner source library, that helps reduce the complexity of Jenkins ci pipelines while providing best practices of using Jenkins pipelines.</li>
+                <li class="mb-2">Created procedures and methodology of the Enterprise_Release_Pipeline in Cloudbees Flow. Allowing developers to move to production faster.</li>
+                <li class="mb-2">Provided Support and Help for developers using Jenkins, Github, Sonatype Nexus, NexusIQ, and Cloudbees Flow.</li>
+                <li class="mb-2">Help maintain custom inner source docker images for the enterprise used for Jenkins Builds.</li>
+                <li class="mb-2">Created custom GitHub Actions and reusable workflows using typescript, and bash scripting for the FedEx Enterprise which reduces the time for a developer to push to production from 2 days to around 2 hours while still maintaining compliance.</li>
+                <li class="mb-2">Help gather metrics within our tools by using Prometheus. Also use other scripting languages to gather metrics that are outside of the scope of Prometheus.</li>
+                <li class="mb-2">Lead and implemented the transition of  moving question data from Enterprise StackOverflow to Github Discussion, allowing us to get rid of the contract with StackOverflow saving the company $750,000 per year</li>
+              </ul>
+            </div>
           </div>
           <div>
-            <h2 class="text-2xl text-bold font-mono font-extrabold">Education</h2>
+            <h2 class="text-2xl text-bold font-mono font-extrabold mb-5 underline">Education</h2>
             <p class="text-gray-800 text-bold font-goodbold">Tennessee State University, 2009 - 2014</p>
+            <p class="text-gray-800 italic">Nashville, TN</p>
+            <p class="text-gray-800 italic">Bachelor of Science in Computer Science</p>
+            <p class="text-gray-800">GPA: 3.4</p>
           </div>
-      </div>
+        </div>
   </body>
 </html>
